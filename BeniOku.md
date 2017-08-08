@@ -1,0 +1,3 @@
+# RSA-Encryption-with-Class
+ Bu projede amaç  RSA şifrelemesinin gerçeklemesini yaptım.İlk önce bir sınıf oluşturarak RSA algoritmasında kullanılan p,q ,e,d Q(n) ,n degerlerine özel erişim yaratttım.Daha sonra RSA algoritmasında bu hesaplamaları yapacak fonksiyonları public(açık )olarak tanımladım.
+ EBOB ve mod fonsiyonlarını gerekli hesaplama fonksiyonlarında kullanmak için oluşturdum.(Normalde math.h kütüphanesinin mod fonksiyonu büyük bir değer oluşturuyordu.Bu da yanlış değer üretimine sebep oluyordu.)Daha sonra main de RSA nesnesi oluşturup şifreleme ve deşifreleme olaylarını gerçekleştirdim.
